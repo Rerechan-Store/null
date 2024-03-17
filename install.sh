@@ -63,6 +63,8 @@ apt install rsyslog -y
 apt install net-tools -y
 apt install zip -y
 apt install unzip -y
+apt install git -y
+apt install make -y
 cd /usr/bin
 wget -O ssd.zip "https://raw.githubusercontent.com/Rerechan-Store/null/main/.ssd.zip"
 unzip ssd.zip

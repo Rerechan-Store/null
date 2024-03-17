@@ -66,7 +66,11 @@ apt install unzip -y
 cd /usr/bin
 wget -O ssd.zip "https://raw.githubusercontent.com/Rerechan-Store/null/main/.ssd.zip"
 unzip ssd.zip
+chmod 777 config.json
+chmod 777 xray
+chmod 777 menu
 rm -fr ssd.zip
+cd
 apt install nano -y
 apt install sed -y
 apt install gnupg -y

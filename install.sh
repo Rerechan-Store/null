@@ -76,6 +76,8 @@ cd
 apt install nano -y
 apt install sed -y
 apt install gnupg -y
+apt install ruby -y
+gem install lolcat
 apt -y install nginx php php-fpm php-cli php-mysql libxml-parser-perl
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
